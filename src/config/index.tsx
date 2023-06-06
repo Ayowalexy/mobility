@@ -1,0 +1,1 @@
+export const API_URL = 'http://192.168.0.174:5000/api/v1' //'https://calm-gold-oyster-gown.cyclic.app/api/v1'  //'https://mobillity-be.herokuapp.com/api/v1' //'http://192.168.0.174:5000/api/v1' 

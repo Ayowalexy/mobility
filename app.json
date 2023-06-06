@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Mobility",
-    "slug": "Mobility",
-    "version": "1.0.0",
+    "name": "LAAR",
+    "slug": "LAAR",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ayowalexy.LAAR"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c19840ce-2e11-4ed2-b4dd-76021d6ae593"
+      }
     }
   }
 }
